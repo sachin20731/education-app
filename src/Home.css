@@ -1,0 +1,153 @@
+/* src/pages/Home.css */
+.home-container {
+    height: 100vh;
+    
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #6ca1b840 ,#4aaff374, #17b2e23f) ;
+    /* background-image: url("./file.png"); */
+    
+
+    
+    
+     
+  
+  background-repeat: no-repeat; /* Prevent image tiling */
+ 
+    
+    
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161C60;
+    color: white;
+    width: 100%;
+    padding: 0px 0;
+  }
+  
+  .logo {
+    height: 130px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .intro-text {
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    max-width: 400px;
+  }
+  
+  .intro-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text p {
+    font-size: 1.2rem;
+  }
+  
+  .login-box {
+    background: linear-gradient(to right,#759bd1,#11196c);
+    
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 800px;
+    
+  }
+  
+  .login-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .login-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+  
+  .login-box button {
+    background-color: #030e21;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 280px;
+    
+  }
+  
+  .login-box button:hover {
+    background-color: #003b8b;
+  }
+.ss{
+  background: linear-gradient(to right, #052152,#4579c3);
+  background-clip: text;
+  color: transparent;
+  
+  font-weight: bolder;
+}
+
+.ss1{
+  font-size: 60px;
+  
+  
+}
+
+.ss-home{
+  position: absolute;
+  margin-top: 300px;
+  left: 170px;
+  
+  
+}
+
+.ss-head{
+  position: absolute;
+  margin-top: 500px;
+  left: 170px;
+  
+  
+}
+.logo {
+  width: 200px; /* Set the logo width */
+  height: auto; /* Maintain aspect ratio */
+  opacity: 0.9; /* Slightly transparent, optional */
+  transition: opacity 0.3s ease-in-out;
+  position: absolute;
+  top: 180px;
+  left: 300px; /* Smooth hover effect */
+}
+.logo:hover {
+  opacity: 1; /* Fully opaque on hover */
+}
+
