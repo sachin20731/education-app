@@ -61,54 +61,7 @@
     font-size: 1.2rem;
   }
   
-  .login-box {
-    background: linear-gradient(to right,#759bd1,#11196c);
-    
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
-    width: 300px;
-    text-align: center;
-    margin-top: 220px;
-    margin-left: 800px;
-    
-  }
-  
-  .login-box h3 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .login-box form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
-  
-  .login-box input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding-left: 10px;
-    margin-left: 10px;
-  }
-  
-  .login-box button {
-    background-color: #030e21;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 280px;
-    
-  }
-  
-  .login-box button:hover {
-    background-color: #003b8b;
-  }
+
 .ss{
   background: linear-gradient(to right, #052152,#4579c3);
   background-clip: text;
