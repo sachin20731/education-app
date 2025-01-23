@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 import { UseRoutes,Router,Routes } from "react-router-dom"; 
 
 import Home from "./Home";
+import Dashboard from "./Sidebar";
 
 function App() {
   return (
     <div>
-      <Home />
+      <Dashboard />
     </div>
   );
 }
