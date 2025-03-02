@@ -1,0 +1,41 @@
+.body-1{
+    top: 0px;
+}
+
+.content-123{
+    padding-left: 300px;
+    color: black;
+    
+    
+}
+
+.tile {
+    
+    display: flex;
+    padding-top: 30px;
+    
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* align-items: center; */
+    justify-content: center;
+    background: rgb(244, 240, 240);
+    
+    border-radius: 10px;
+    width: 200px;
+    height:220px ;
+    position: absolute;
+    top: 230px;
+    left: 400px;
+   
+  
+    
+  }
+
+.dashboard-image{
+    width: 150px;
+    height: 120px;
+    
+    border-radius: 10px;
+    
+    
+}
+  

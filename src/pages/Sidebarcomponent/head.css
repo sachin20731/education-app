@@ -1,0 +1,36 @@
+.head{
+    
+    width: 82.1%;
+    height: 120px;
+    background-color: #012A4A;
+    right: 0px;
+    position: absolute;
+    
+}
+
+.logo3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 2px;
+    top: 6px;
+    
+    
+}
+
+.live-time {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(254, 254, 254);
+
+    padding: 8px 12px;
+    border-radius: 5px;
+    position: absolute;
+    right: 120px;
+    top: 20px;
+  }

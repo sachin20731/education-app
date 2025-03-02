@@ -1,18 +1,36 @@
 import React from "react";
 import "./sidebar.css";
+import './head.css'
+import Head from './Head'
+import { AiOutlineSetting } from "react-icons/ai";
 
 const Sidebar= () => (
+  <>
   <div className="sidebar">
 
+  <Head/>
+
     <div className="sidebar-list">
-      <div className="sidebar-list-item">Admin Setting</div>
+        <div className="sidebar-list-item"> <AiOutlineSetting className="icon" /> Admin Setting</div>
+      
       <div className="sidebar-list-item">User Settings</div>
       <div className="sidebar-list-item">Course Details</div>
       <div className="sidebar-list-item">Manage Courses</div>
+
+      <div className="sidebar-list-item">Sign-out</div>
     </div>
+
+    
     
     
   </div>
+
+  
+
+
+
+
+  </>
 );
 
 

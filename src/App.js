@@ -1,16 +1,40 @@
 import React from "react";
 import "./App.css";
 import { Link } from "react-router-dom";
-import { UseRoutes,Router,Routes } from "react-router-dom"; 
+import { BrowserRouter,Routes,Route } from "react-router-dom"; 
 
-import Home from "./Home";
-import Dashboard from "./Sidebar";
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import Sidebar from "./pages/Sidebarcomponent/Sidebar";
+import Head from "./pages/Sidebarcomponent/Head";
 
 function App() {
   return (
-    <div>
-      <Dashboard />
-    </div>
+    <BrowserRouter>
+    
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard2" element={<Head />} />
+
+        <Route
+          path="/dashboard"
+          element={
+            <div className="flex">
+              <Sidebar />
+              <div className="ml-64 p-5 w-full">
+                <Dashboard />
+              </div>
+            </div>
+            
+          }
+        />
+        
+
+      
+          
+      </Routes>
+     
+    </BrowserRouter>
   );
 }
 
