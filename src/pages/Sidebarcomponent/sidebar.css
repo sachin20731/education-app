@@ -45,14 +45,22 @@
    */
 
 
+
+   .sidebar{
+    position: inherit;
+    padding-top: 120px;
+
+   }
    .sidebar-list {
+    
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    gap: 10px; /* Space between tiles */
-    width: 250px; /* Sidebar width */
+    flex-direction: column; 
+    gap: 10px; 
+    width: 250px; 
     padding: 10px;
     background-color: #2d2d2d;
-    height: 100vh; /* Dark background */
+    height: 80vh; 
+    position: sticky;
   }
   
   .sidebar-list-item {
@@ -63,10 +71,18 @@
     text-align: center;
     font-weight: bold;
     cursor: pointer;
-    transition: background 0.3s ease-in-out;
+    
   }
   
   .sidebar-list-item:hover {
     background-color: #444; /* Darker on hover */
+  }
+
+  .icon {
+    font-size: 20px;
+    color: #fff;
+   position: absolute;
+    
+    left: 40px;
   }
   

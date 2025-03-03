@@ -23,8 +23,10 @@ function Head() {
        <div className='logo3'>
         <img src={img1} alt="G+ Education Logo" className="logo3" />
        </div>
+       
        <div className="live-time">
        {time.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: true })}
+       
       </div>
 
     </div>
