@@ -6,9 +6,10 @@ import { AiOutlineSetting } from "react-icons/ai";
 
 const Sidebar= () => (
   <>
+  <Head/>
   <div className="sidebar">
 
-  <Head/>
+  
 
     <div className="sidebar-list">
         <div className="sidebar-list-item"> <AiOutlineSetting className="icon" /> Admin Setting</div>

@@ -21,7 +21,7 @@ function App() {
           element={
             <div className="flex">
               <Sidebar />
-              <div className="ml-64 p-5 w-full">
+              <div >
                 <Dashboard />
               </div>
             </div>
